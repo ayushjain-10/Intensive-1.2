@@ -450,7 +450,7 @@ def startGame():
     g_turn = 0
     g_steps = 0
     # Create the player paddle object
-    Pacman = Player(w, p_h, "images/pacman.png")
+    Pacman = Player(w, p_h, "images/trollman.png")
     all_sprites_list.add(Pacman)
     pacman_collide.add(Pacman)
 
