@@ -4,21 +4,6 @@ from copy import copy, deepcopy
 import random
 
 
-# TheForage Module 1
-# Jibran Absarulislam and Nixon Puertollano
-
-
-# completed:
-# Vax-Man can kill a ghost if he comes into contact with it (vaccinates it).
-# Contact with a ghost does not kill Vax-Man.
-# The goal of the game is to collect all the dots before the number of ghosts grows to 32 times the original number.
-#   original number = 4; goal is while num_ghosts < 128
-# Each ghost that has not yet been hit multiplies itself every 30 seconds (the infection grows).
-# Duplicated ghosts have to be able to move
-
-# TODO (later):
-# fix overlapping
-
 
 black = (0, 0, 0)
 white = (255, 255, 255)
@@ -37,9 +22,9 @@ Trollicon = pygame.image.load('images/Trollman.png')
 pygame.display.set_icon(Trollicon)
 
 # Add music
-# pygame.mixer.init()
-# pygame.mixer.music.load('pacman.mp3')
-# pygame.mixer.music.play(-1, 0.0)
+pygame.mixer.init()
+pygame.mixer.music.load('pacman.mp3')
+pygame.mixer.music.play(-1, 0.0)
 
 # This class represents the bar at the bottom that the player controls
 
