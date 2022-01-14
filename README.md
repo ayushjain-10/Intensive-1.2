@@ -1,6 +1,8 @@
 # Covid Pacman
 Project created for Winter Intensive
 
+<img src="walkthrough.gif">
+
 Modifications:
   - Vax-Man kills ghosts that are touched
   - The ghosts double after a certain amount of time
@@ -20,7 +22,5 @@ Prerequisites
 
 How to run:
 Open cmd in vaxman folder and type `python3 game.py` to play the game
-
-<img src="walkthrough.gif">
 
 Original Pacman source: https://github.com/hbokmann/Pacman
